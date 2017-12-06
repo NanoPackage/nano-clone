@@ -1,0 +1,31 @@
+{
+  "name": "nano-clone",
+  "version": "0.0.1",
+  "description": "nano version for deep clone.",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "nyc npm test && nyc report --reporter=lcov",
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NanoPackage/nano-clone.git"
+  },
+  "keywords": [
+    "nano",
+    "nano-clone",
+    "nano-package"
+  ],
+  "author": "hustcc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NanoPackage/nano-clone/issues"
+  },
+  "homepage": "https://github.com/NanoPackage/nano-clone#readme",
+  "devDependencies": {
+    "coveralls": "^2.11.6",
+    "expect": "^1.14.0",
+    "mocha": "^2.4.5",
+    "nyc": "^5.6.0"
+  }
+}
